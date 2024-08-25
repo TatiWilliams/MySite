@@ -1,0 +1,103 @@
+body {
+    color: var(--default-color);
+    background-color: var(--background-color);
+    font-family: var(--default-font);
+  }
+  
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font);
+  }
+  
+.header {
+    background-color: #83e0f2;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo-container {
+    flex: 1;
+}
+.navigation{
+    float: right;
+    height: 100%;
+}
+ 
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: rgb(11, 11, 11);
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.content p {
+    flex: 1;
+    font-size: 20px; 
+}
+.contacts {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts li {
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.contacts a:hover {
+    color: #007bff;
+}
+
+.contacts i {
+    margin-right: 10px;
+}
+
+
+
